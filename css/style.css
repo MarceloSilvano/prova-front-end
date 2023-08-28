@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,400;10..48,700&family=Roboto&display=swap');
+
+*{
+    font-family: 'Bricolage Grotesque', sans-serif; 
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+.mNav{
+    background-color: #EAAE00;
+}
+
+.mNav-link{
+    font-size: 22px;
+    color:white;
+    opacity: 100%;
+}
+
+.bg-yellow{
+    background-color: #FFC500;
+}
+
+.mSection{
+    color:white;
+    border-bottom: black solid 1px;
+}
+
+.mSectionDiv{
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.mSection h1{
+    font-weight: bold;
+}
+
+.mSectionMobile{
+    display: none;
+}
+@media (max-width: 700px) { 
+    .imgDog{
+        display: none;
+    }
+    .mSectionDiv{
+        display: none;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .mSectionMobile{
+        display: inline;
+        margin-top:50px ;
+        margin-bottom: 100px;
+    }
+    .mSectionMobile h1{
+        margin-bottom: 15px;
+    }
+ }
+
+ .buttonBlue{
+    background-color: #00C0CB;
+    border: #00a3ac;
+ }
+ .button-outline:hover{
+    background-color: #eab00000;
+ }
+ .button-outlineNoColor:hover{
+    background-color: #00C0CB;
+ }
+ 
+ .buttons{
+    margin-top: 20px;
+ }
+
+ .horizontal-center {
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+.tituloTeam{
+    margin-top:20px ;
+}
+.tituloTeam h2{
+    font-weight: bolder;
+}
+.subTituloTeam{
+    width: 700px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.medicos{
+    margin-top: 25px
+}
+
+.medicos h5{
+    font-weight: bolder;
+    text-align: center;
+    font-size:24px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+
+.medicos h4{
+    text-align: center;
+    margin-top: 0px;
+}
+
+.nomeMedico{
+    width: 361px;
+}
+
+.servicesSection{
+    border-top: solid black 1px;
+}
+
+.form{
+    width: 500px;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact p{
+    margin: 0;
+}
+#contact h2{
+    margin-bottom: 0;
+    margin-top: 15px;
+}
